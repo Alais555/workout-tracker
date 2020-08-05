@@ -6,7 +6,7 @@ const routes = require("./routes/html-routes");
 
 
 const PORT = process.env.PORT | 3000;
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout-tracker";
 
 const app = express();
 app.use(morgan("dev"));
